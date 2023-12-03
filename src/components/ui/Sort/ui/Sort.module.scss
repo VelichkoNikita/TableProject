@@ -1,0 +1,31 @@
+.sortRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.tooltipRight {
+    right: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    width: 260px;
+    padding: 10px 12px;
+    top: 306px;
+    font-size: 30px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #D3D3D3;
+    border-radius: 6px;
+    border-radius: 12px;
+    text-align: center;
+    white-space: pre-line;
+    z-index: 99;
+
+    div {
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #D3D3D3;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
